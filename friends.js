@@ -8,4 +8,13 @@ function overThirty(nums) {
   }
 }
 
+function underSixty(nums) {
+  for (var i = 0; i < nums.length; i++) {
+    if (nums[i] < 60) {
+      console.log(nums[i]);
+    }
+  }
+}
+
 overThirty(numbers);
+underSixty(numbers);
