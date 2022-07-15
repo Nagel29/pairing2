@@ -7,3 +7,5 @@ function overThirty(nums) {
     }
   }
 }
+
+overThirty(numbers);
